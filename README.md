@@ -23,6 +23,17 @@ El diseño se basa en el **Patrón de Diseño Strategy**, cumpliendo con los pri
 
 ---
 
+
+##  Diagrama de Clases
+
+La arquitectura sigue el siguiente diseño UML:
+
+![Diagrama de Clases UML](Diagrama.png)
+
+
+
+---
+
 ## Estructura del Proyecto
 
 El código está organizado siguiendo buenas prácticas de ingeniería de software:
@@ -34,3 +45,4 @@ src/main/java/org/example/
 ├── service/         # Lógica de negocio y Contexto (NotificationEngine)
 ├── strategy/        # Implementación del Patrón Strategy (Interfaz y Clases Concretas)
 └── Main.java        # Punto de entrada para pruebas
+
